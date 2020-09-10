@@ -30,7 +30,7 @@
             />
           </a>
         </div>
-        <div class="header-toggler">
+        <div id="sidebarToggler" class="header-toggler">
           <svg
             width="24"
             height="24"
@@ -94,7 +94,15 @@
       <!--Header end-->
       <div class="main-content-wrap">
         <!--Sidebar start-->
-        <aside class="sidebar">
+        <aside id="sidebar" class="sidebar">
+          <div class="sidebar-header">
+            <img
+              src="./img/img-user.jpg"
+              alt="Jerry Little"
+              class="sidebar-header-img"
+            />
+            <span class="sidebar-header-name">Jerry Little</span>
+          </div>
           <ul class="sidebar-nav">
             <li class="sidebar-nav-item active">
               <a href="#" class="sidebar-nav-link">
@@ -111,6 +119,7 @@
                     fill="#4A4A4A"
                   />
                 </svg>
+                <span class="sidebar-nav-title">Home</span>
               </a>
             </li>
             <li class="sidebar-nav-item">
@@ -128,6 +137,7 @@
                     fill="#4A4A4A"
                   />
                 </svg>
+                <span class="sidebar-nav-title">Chat</span>
               </a>
             </li>
             <li class="sidebar-nav-item">
@@ -145,6 +155,7 @@
                     fill="#4A4A4A"
                   />
                 </svg>
+                <span class="sidebar-nav-title">Settings</span>
               </a>
             </li>
             <li class="sidebar-nav-item">
@@ -162,6 +173,7 @@
                     fill="#4A4A4A"
                   />
                 </svg>
+                <span class="sidebar-nav-title">Logout</span>
               </a>
             </li>
           </ul>
