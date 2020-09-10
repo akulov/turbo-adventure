@@ -1,0 +1,15 @@
+@import "src/styles/theme";
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: $color4;
+  color: $color5;
+  min-height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: inherit;
+}

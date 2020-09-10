@@ -1,0 +1,13 @@
+.mainContentWrap {
+  flex: 0 0 auto;
+  display: flex;
+  height: calc(100vh - 60px);
+  position: relative;
+}
+
+.contentWrap {
+  flex: 1 1 auto;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}

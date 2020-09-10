@@ -1,0 +1,36 @@
+@import "src/styles/theme";
+
+.wrap {
+  flex: 1 0 auto;
+  box-shadow: 0 2px 4px rgba($color6, 0.1);
+  border-radius: 6px;
+  margin: 20px;
+}
+
+.header {
+  border-bottom: 1px solid $color3;
+  min-height: 60px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.inner {
+  font-size: 12px;
+  line-height: 14px;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .wrap {
+    margin: 10px;
+  }
+}
